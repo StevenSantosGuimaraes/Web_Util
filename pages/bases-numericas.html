@@ -1,0 +1,33 @@
+<div class="container">
+    
+    <h2>Conversor de Bases</h2>
+
+    <div class="mb-3">
+        <label for="numero" class="form-label">Número</label>
+        <input type="text" class="form-control" id="numero">
+    </div>
+
+    <div class="mb-3">
+        <label for="baseOrigem" class="form-label">Base Original</label>
+        <select class="form-select" id="baseOrigem">
+            <option value="2">Binário</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="baseAlvo" class="form-label">Base Alvo</label>
+        <select class="form-select" id="baseAlvo">
+            <option value="2">Binário</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+    </div>
+
+    <button class="btn btn-primary" onclick="converterBase()">Converter</button>
+
+    <p id="resultadoBase" class="mt-3"></p>
+</div>
